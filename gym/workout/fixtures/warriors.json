@@ -1,0 +1,11 @@
+[
+    {
+        "model": "workout.warrior",
+        "pk": 1,
+        "fields": {
+            "username": "Dummy",
+            "password": "DumbOne1",
+            "last_login": "2022-08-13 22:58:21.326838-05"
+        }
+    }
+]

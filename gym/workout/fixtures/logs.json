@@ -1,0 +1,44 @@
+[
+    {
+        "model": "workout.log",
+        "pk": 1,
+        "fields": {
+            "exercise": "Pull ups",
+            "sets": 1,
+            "reps": 1,
+            "warrior": 1
+        }
+    },
+    {
+        "model": "workout.log",
+        "pk": 2,
+        "fields": {
+            "exercise": "Deadlift",
+            "sets": 3,
+            "reps": 5,
+            "pounds": 455,
+            "warrior": 2
+        }
+    },
+    {
+        "model": "workout.log",
+        "pk": 3,
+        "fields": {
+            "exercise": "Bicep Curl",
+            "sets": 5,
+            "reps": 5,
+            "pounds": 50,
+            "warrior": 2
+        }
+    },
+    {
+        "model": "workout.log",
+        "pk": 4,
+        "fields": {
+            "exercise": "Pull Ups",
+            "sets": 5,
+            "reps": 10,
+            "warrior": 2
+        }
+    }
+]

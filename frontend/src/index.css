@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(220, 220, 220), rgb(50, 95, 60));
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh; 
+  }
+
+.content {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.records {
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+a, a:visited {
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+label,
+button {
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: rgb(110, 110, 110);
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: rgb(10, 170, 10);
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+.header {
+    text-transform: uppercase;
+	background-image: linear-gradient(#7f7f7f 55%, #d9d9d9 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.maxout {
+    text-transform: uppercase;
+	background-image: linear-gradient(#fee330 55%, #f3f2d2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.announce {
+    color: white;
+}
+
+.image {
+    position: relative;
+    left: 80px;
+    bottom: 170px;
+}
+
+.muscle ul{
+    list-style: none;
+}
+
+.muscle li{
+    display: inline;
+    color: rgb(255, 255, 185);
+    font-size: 40px;
+    margin: 70px;
+}
+
+.editing {
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.editing-links li{
+    display: inline;
+    color: rgb(255, 255, 185);
+    font-size: 30px;
+    margin: 70px;
+}
+
+.records ul{
+    list-style: none;
+}
+
+.records li{
+    font-size: 25px;
+}
+
+.motivate {
+    font-size: 14px;
+}
